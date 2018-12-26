@@ -24,149 +24,121 @@
   <!-- Facebook default app id -->
   <meta property="fb:app_id" content="966242223397117" />
   <!-- Stylesheets -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.css"
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css"
   rel="stylesheet" type="text/css"/>
-  <link rel="stylesheet" type="text/css"
-  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
 <body class="layout-default">
-  <section class="hero has-text-centered">
-    <!-- Navigation bar -->
-    <div class="hero-head">
-      <div class="container">
-        <nav class="navbar" style="box-shadow: 0 1px 0 rgba(219, 219, 219, 0.8);">
-          <!-- Left side of nav-bar -->
-          <div class="navbar-brand">
-            <a class="navbar-item" href="index.html" style="font-size: 1.5rem;">
-              CV Engineer
-            </a>
-          </div>
-          <div class="navbar-menu" id="nav-menu">
-            <div class="navbar-end">
-              <a style="font-size: 2rem;" class="navbar-item" href="https://play.google.com/store/apps/details?id=sampson.cvbuilder" target="_blank">
-                <i class="fa fa-android"></i>
-              </a>
-              <a style="font-size: 2rem;" class="navbar-item" href="https://twitter.com/cv_engineer_hq" target="_blank">
-                <i class="fa fa-twitter"></i>
-              </a>
-              <a style="font-size: 2rem;" class="navbar-item" href="https://www.linkedin.com/company/cv-engineer/" target="_blank">
-                <i class="fa fa-linkedin"></i>
-              </a>
-            </div>
-          </div>
-        </nav>
+  <!-- Navbar -->
+  <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <!-- Left side of nav-bar -->
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-4 has-text-weight-semibold" href="https://cvengineer.github.io/">
+          CV Engineer
+        </a>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <!-- Right side of Navbar -->
+        <div class="navbar-end is-size-3">
+          <a class="navbar-item" href="https://itunes.apple.com/us/app/cv-engineer-resume-builder/id1445323895?ls=1&amp;mt=8" target="_blank">
+            <i class="fab fa-app-store-ios"></i>
+          </a>
+          <a class="navbar-item" href="https://play.google.com/store/apps/details?id=sampson.cvbuilder" target="_blank">
+            <i class="fab fa-android"></i>
+          </a>
+          <a class="navbar-item" href="https://twitter.com/cv_engineer_hq" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a class="navbar-item" href="https://www.linkedin.com/company/cv-engineer/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
       </div>
     </div>
-    <!-- Body of first section -->
+  </nav>
+  <!-- Body of first section -->
+  <section class="hero has-text-centered">
     <div class="hero-body">
       <div class="content is-large" style="margin-bottom: 0.5rem;">
-        <h1 class="title is-1" style="margin-bottom: 0.3rem;">Build a standout resume in minutes</h1>
-        <p style="margin-bottom: 0rem;">Easily create a professional CV on your phone</p>
+        <h1 class="title is-1">
+          Build a standout resume in minutes
+        </h1>
+        <h2 class="subtitle is-4">
+          Easily create a professional CV on your phone
+        </h2>
       </div>
-      <div class="column is-2 is-offset-5">
-        <a href='https://play.google.com/store/apps/details?id=sampson.cvbuilder&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-          <img alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png'/>
-        </a>
+      <div class="columns is-vcentered is-centered">
+        <div class="column is-2">
+          <a href="https://itunes.apple.com/us/app/cv-engineer-resume-builder/id1445323895?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-gb/badge-lrg.svg?releaseDate=2018-12-06&amp;kind=iossoftware&amp;bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
+        </div>
+        <div class="column is-2">
+          <a href='https://play.google.com/store/apps/details?id=sampson.cvbuilder&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+            <img alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png'/>
+          </a>
+        </div>
       </div>
       <!-- Columns containing CV Engineer app screenshots -->
       <div class="columns" style="margin-top: 0.5rem;">
         <div class="column is-2 is-offset-1">
           <figure class="image" style="background-color: #777; box-shadow: 0 0 10px 2px #BBB;">
-            <img alt='CV Engineer - Resume Builder - main menu' src="/images/screenshot_1.png"/>
+            <img alt='CV Engineer - Resume Builder - main menu' src="/images/ios_screenshot_1.png"/>
           </figure>
         </div>
         <div class="column is-2">
           <figure class="image" style="background-color: #777; box-shadow: 0 0 10px 2px #BBB;">
-            <img alt="CV Engineer - Resume Builder - career details screen" src="/images/screenshot_2.png"/>
+            <img alt="CV Engineer - Resume Builder - career details screen" src="/images/ios_screenshot_2.png"/>
           </figure>
         </div>
         <div class="column is-2 is-hidden-mobile">
           <figure class="image" style="background-color: #777; box-shadow: 0 0 10px 2px #BBB;">
-            <img alt="CV Engineer - Resume Builder - cv settings menu" src="/images/screenshot_5.png"/>
+            <img alt="CV Engineer - Resume Builder - cv settings menu" src="/images/ios_screenshot_3.png"/>
           </figure>
         </div>
         <div class="column is-2">
           <figure class="image" style="background-color: #777; box-shadow: 0 0 10px 2px #BBB;">
-            <img alt="CV Engineer - Resume Builder - personal statement examples" src="/images/screenshot_3.png"/>
+            <img alt="CV Engineer - Resume Builder - personal statement examples" src="/images/ios_screenshot_4.png"/>
           </figure>
         </div>
         <div class="column is-2 is-hidden-mobile">
           <figure class="image" style="background-color: #777; box-shadow: 0 0 10px 2px #BBB;">
-            <img alt="CV Engineer - Resume Builder - frequently asked questions" src="/images/screenshot_4.png"/>
-          </figure>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Resume images - CV Engineer -->
-  <section class="hero is-primary has-text-centered">
-    <div class="hero-body">
-      <div class="container">
-        <div class="content is-large">
-          <h1 class="title" style="margin-bottom: 0.3rem;">
-            <strong>The right template for the right job</strong>
-          </h1>
-          <p style="color: white; margin-bottom: 1.5rem;">
-            <strong>Designed by a professional recruitment consultant</strong>
-          </p>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-3">
-          <figure class="image" style="background-color: #777; box-shadow: 0 0 10px 2px #777;">
-            <img alt="CV Engineer resume template example 1" src="/images/sherlock_template_1.png"/>
-          </figure>
-        </div>
-        <div class="column is-3">
-          <figure class="image" style="background-color: #777; box-shadow: 0 0 10px 2px #777;">
-            <img alt="CV Engineer resume template example 2" src="/images/sherlock_template_2.png"/>
-          </figure>
-        </div>
-        <div class="column is-3">
-          <figure class="image" style="background-color: #777; box-shadow: 0 0 10px 2px #777;">
-            <img alt="CV Engineer resume template example 3" src="/images/sherlock_template_3.png"/>
-          </figure>
-        </div>
-        <div class="column is-3 is-hidden-mobile">
-          <figure class="image" style="background-color: #777; box-shadow: 0 0 10px 2px #777;">
-            <img alt="CV Engineer resume template example 4" src="/images/sherlock_template_4.png"/>
+            <img alt="CV Engineer - Resume Builder - frequently asked questions" src="/images/ios_screenshot_5.png"/>
           </figure>
         </div>
       </div>
     </div>
   </section>
   <!-- Icon hero -->
-  <section class="hero">
+  <section class="hero is-link">
     <div class="hero-body">
       <div class="container">
         <nav class="columns">
-          <a class="column has-text-centered" href="careerguidancebooks.html">
-            <span class="icon is-large">
-              <i class="fa fa-book"></i>
+          <a class="column has-text-centered" href="https://itunes.apple.com/us/app/cv-engineer-resume-builder/id1445323895?ls=1&amp;mt=8" target="_blank">
+            <span class="icon is-size-1">
+              <i class="fab fa-app-store-ios"></i>
             </span>
             <p class="title is-4" style="margin-top: 0.5rem;">
-              <strong>Books &amp; Guides</strong>
+              <strong>App Store</strong>
             </p>
             <p class="subtitle">
-              Career Advice
+              Available on iOS
             </p>
           </a>
           <a class="column has-text-centered" href="https://play.google.com/store/apps/details?id=sampson.cvbuilder" target="_blank">
-            <span class="icon is-large">
-              <i class="fa fa-android"></i>
+            <span class="icon is-size-1">
+              <i class="fab fa-android"></i>
             </span>
             <p class="title is-4" style="margin-top: 0.5rem;">
-              <strong>Android</strong>
+              <strong>Play Store</strong>
             </p>
             <p class="subtitle">
-              Available on Google Play
+              Available on Android
             </p>
           </a>
-          <a class="column has-text-centered">
-            <span class="icon is-large">
-              <i class="fa fa-file"></i>
+          <div class="column has-text-centered">
+            <span class="icon is-size-1">
+              <i class="fa fa-file-invoice"></i>
             </span>
             <p class="title is-4" style="margin-top: 0.5rem;">
               <strong>Resume Templates</strong>
@@ -174,9 +146,9 @@
             <p class="subtitle">
               Professionally designed
             </p>
-          </a>
-          <a class="column has-text-centered">
-            <span class="icon is-large">
+          </div>
+          <div class="column has-text-centered">
+            <span class="icon is-size-1">
               <i class="fa fa-wrench"></i>
             </span>
             <p class="title is-4" style="margin-top: 0.5rem;">
@@ -185,13 +157,48 @@
             <p class="subtitle">
               Make the CV your own
             </p>
-          </a>
+          </div>
         </nav>
       </div>
     </div>
   </section>
+  <!-- Resume images - CV Engineer -->
+  <section class="hero has-text-centered">
+    <div class="hero-body">
+      <div class="container">
+        <p class="title is-2">
+          <strong>The right CV template for the right job</strong>
+        </p>
+        <p class="subtitle is-4" style="margin-bottom: 2.5rem;">
+          Designed by a professional recruitment consultant
+        </p>
+      </div>
+      <div class="columns">
+        <div class="column is-3">
+          <figure class="image" style="background-color: #BBB; box-shadow: 0 0 10px 2px #BBB;">
+            <img alt="CV Engineer resume template example 1" src="/images/cv_template_1.png"/>
+          </figure>
+        </div>
+        <div class="column is-3">
+          <figure class="image" style="background-color: #BBB; box-shadow: 0 0 10px 2px #BBB;">
+            <img alt="CV Engineer resume template example 2" src="/images/cv_template_2.png"/>
+          </figure>
+        </div>
+        <div class="column is-3">
+          <figure class="image" style="background-color: #BBB; box-shadow: 0 0 10px 2px #BBB;">
+            <img alt="CV Engineer resume template example 3" src="/images/cv_template_3.png"/>
+          </figure>
+        </div>
+        <div class="column is-3 is-hidden-mobile">
+          <figure class="image" style="background-color: #BBB; box-shadow: 0 0 10px 2px #BBB;">
+            <img alt="CV Engineer resume template example 4" src="/images/cv_template_4.png"/>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- About CV Engineer -->
-  <section class="hero is-primary">
+  <section class="hero is-link">
     <div class="hero-body">
       <div class="container">
         <nav class="columns">
@@ -210,11 +217,12 @@
               </p>
               <ul class="has-text-white" style="font-size: 1.2rem;">
                 <li>Resume builder app with easy editing options</li>
-                <li>Professional resume design</li>
+                <li>Professional resume design 📃</li>
                 <li>Customisable resume fields</li>
-                <li>Advice on how to write each CV section</li>
+                <li>Advice on how to write each CV section 🖊️</li>
                 <li>Example CV sections to give you ideas on how to write your own</li>
-                <li>Save and share your new PDF CV</li>
+                <li>Save and share your new PDF CV 💾</li>
+                <li>Interview questions and answers</li>
               </ul>
               <p class="has-text-white" style="font-size: 1.2rem;">
                 CV Engineer makes it easy to create and send resumes on the go.
@@ -245,32 +253,39 @@
       </div>
     </div>
   </section>
-
   <!-- Footer -->
-  <footer class="footer" style="padding-bottom: 3rem;">
+  <footer class="footer" style="padding-bottom: 2rem;">
     <div class="container">
-      <div class="content has-text-centered is-medium">
+      <div class="breadcrumb is-centered has-bullet-separator">
+        <ul>
+          <li class="is-active"><a href="https://cvengineer.github.io/">Home</a></li>
+          <li><a href="https://cvengineer.github.io/privacy">Privacy</a></li>
+          <li><a href="https://cvengineer.github.io/terms">Terms</a></li>
+        </ul>
+      </div>
+      <!-- Social media links -->
+      <div class="content has-text-centered is-large">
         <p>
-          <a class="icon is-medium" style="margin: 0.3rem" href="https://www.linkedin.com/company/cv-engineer/" target="_blank">
-            <i class="fa fa-linkedin"></i>
+          <a class="icon is-medium has-text-dark" style="margin: 0.3rem" href="https://itunes.apple.com/us/app/cv-engineer-resume-builder/id1445323895?ls=1&amp;mt=8" target="_blank">
+            <i class="fab fa-app-store-ios"></i>
           </a>
-          <a class="icon is-medium" style="margin: 0.3rem" href="https://twitter.com/cv_engineer_hq" target="_blank">
-            <i class="fa fa-twitter"></i>
+          <a class="icon is-medium has-text-dark" style="margin: 0.3rem" href="https://play.google.com/store/apps/details?id=sampson.cvbuilder" target="_blank">
+            <i class="fab fa-android"></i>
           </a>
-          <a class="icon is-medium" style="margin: 0.3rem" href="https://play.google.com/store/apps/details?id=sampson.cvbuilder" target="_blank">
-            <i class="fa fa-android"></i>
+          <a class="icon is-medium has-text-dark" style="margin: 0.3rem" href="https://twitter.com/cv_engineer_hq" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a class="icon is-medium has-text-dark" style="margin: 0.3rem" href="https://www.linkedin.com/company/cv-engineer/" target="_blank">
+            <i class="fab fa-linkedin"></i>
           </a>
         </p>
+      </div>
+      <!-- Company info -->
+      <div class="content has-text-centered is-small">
         <p>
-          <a href="/privacy.html" style="margin-right: 1rem;">
-            Privacy Policy
-          </a>
-          <a href="terms.html">
-            Terms
-          </a>
+          Copyright &#169; 2019 CV Engineer
+          <br/>Contact at cv.engineer.hq@gmail.com
         </p>
-        <hr/>
-        <p>Copyright &#169; 2018 CV Engineer. Contact at cv.engineer.hq@gmail.com</p>
       </div>
     </div>
   </footer>
