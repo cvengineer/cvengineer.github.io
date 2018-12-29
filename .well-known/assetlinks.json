@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "sampson.cvbuilder",
+    "sha256_cert_fingerprints":
+    ["D5:32:5F:7D:98:1F:9A:98:48:C8:05:AE:C2:F9:AF:65:56:E9:BC:29:B0:61:D2:C7:AF:09:70:A4:24:3D:75:13"]
+  }
+}]
