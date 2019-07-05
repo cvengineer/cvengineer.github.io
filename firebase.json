@@ -3,6 +3,7 @@
     "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "cleanUrls": true,
+    "appAssociation": "AUTO",
     "rewrites": [
       {
         "source": "/firebase/**",
