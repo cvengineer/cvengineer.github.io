@@ -53,6 +53,8 @@
       rel="stylesheet"
       type="text/css"
     />
+    <!-- Scripts -->
+    <script src="/general.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
 
@@ -72,24 +74,32 @@
           >
             CV Engineer
           </a>
+          <!-- Navbar burger -->
+          <a
+            role="button"
+            class="navbar-burger has-text-dark"
+            data-target="navMenu"
+            aria-label="menu"
+            aria-expanded="false"
+          >
+            <span aria-hidden="true"></span> <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
         <div class="navbar-menu" id="navMenu">
           <!-- Right side of Navbar -->
-          <div class="navbar-end is-size-3">
-            <a
-              class="navbar-item"
-              href="https://itunes.apple.com/us/app/cv-engineer-resume-builder/id1445323895?ls=1&amp;mt=8"
-              target="_blank"
-            >
-              <i class="fab fa-app-store-ios"></i>
-            </a>
-            <a
-              class="navbar-item"
-              href="https://play.google.com/store/apps/details?id=sampson.cvbuilder"
-              target="_blank"
-            >
-              <i class="fab fa-android"></i>
-            </a>
+          <div class="navbar-end">
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Resume Advice</a>
+              <div class="navbar-dropdown is-right">
+                <a
+                  class="navbar-item"
+                  href="https://cvengineer.io/understand-recruitment"
+                >
+                  Understand how employers think
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -212,15 +222,15 @@
     <!-- Footer -->
     <footer class="footer" style="padding-bottom: 2rem;">
       <div class="container">
-        <div class="columns is-vcentered is-centered">
-          <div class="column is-2">
+        <div class="columns is-vcentered is-centered is-mobile">
+          <div class="column is-2-desktop is-3-tablet is-6-mobile">
             <a
               href="https://itunes.apple.com/us/app/cv-engineer-resume-builder/id1445323895?mt=8"
             >
               <img alt="Get it on the App Store" src="/app-store-button.png" />
             </a>
           </div>
-          <div class="column is-2">
+          <div class="column is-2-desktop is-3-tablet is-6-mobile">
             <a
               href="https://play.google.com/store/apps/details?id=sampson.cvbuilder&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
             >
