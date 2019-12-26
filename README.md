@@ -1,4 +1,4 @@
-# [CV Engineer](https://cvengineer.github.io/)
+# [CV Engineer](https://cvengineer.io/)
 
 Website for the CV Engineer app - a simple and free way to build a PDF resume for your job applications.
 
@@ -7,4 +7,4 @@ Website for the CV Engineer app - a simple and free way to build a PDF resume fo
 
 ## Copyright
 
-Code copyright 2018 [Matthew Callery](https://github.com/MatthewCallery).
+Code copyright 2019 [Matthew Callery](https://github.com/MatthewCallery).
